@@ -18,6 +18,9 @@
 		865A27441765A49D00BE8433 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 865A27431765A49D00BE8433 /* Default-568h@2x.png */; };
 		865A27471765A49D00BE8433 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 865A27461765A49D00BE8433 /* ViewController.m */; };
 		865A274A1765A49D00BE8433 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 865A27481765A49D00BE8433 /* ViewController.xib */; };
+		865A27531765A4D800BE8433 /* MCDragAndDropView.m in Sources */ = {isa = PBXBuildFile; fileRef = 865A27521765A4D800BE8433 /* MCDragAndDropView.m */; };
+		865A27561765A57C00BE8433 /* MCDraggableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 865A27551765A57C00BE8433 /* MCDraggableView.m */; };
+		865A27591765A59600BE8433 /* MCDropTargetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 865A27581765A59600BE8433 /* MCDropTargetView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +40,12 @@
 		865A27451765A49D00BE8433 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		865A27461765A49D00BE8433 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		865A27491765A49D00BE8433 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		865A27511765A4D800BE8433 /* MCDragAndDropView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MCDragAndDropView.h; path = Classes/MCDragAndDropView.h; sourceTree = "<group>"; };
+		865A27521765A4D800BE8433 /* MCDragAndDropView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MCDragAndDropView.m; path = Classes/MCDragAndDropView.m; sourceTree = "<group>"; };
+		865A27541765A57C00BE8433 /* MCDraggableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MCDraggableView.h; path = Classes/MCDraggableView.h; sourceTree = "<group>"; };
+		865A27551765A57C00BE8433 /* MCDraggableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MCDraggableView.m; path = Classes/MCDraggableView.m; sourceTree = "<group>"; };
+		865A27571765A59600BE8433 /* MCDropTargetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MCDropTargetView.h; path = Classes/MCDropTargetView.h; sourceTree = "<group>"; };
+		865A27581765A59600BE8433 /* MCDropTargetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MCDropTargetView.m; path = Classes/MCDropTargetView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +65,7 @@
 		865A27211765A49D00BE8433 = {
 			isa = PBXGroup;
 			children = (
+				865A27501765A4A300BE8433 /* Classes */,
 				865A27331765A49D00BE8433 /* MCDragAndDrop */,
 				865A272C1765A49D00BE8433 /* Frameworks */,
 				865A272B1765A49D00BE8433 /* Products */,
@@ -105,6 +115,19 @@
 				865A27431765A49D00BE8433 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		865A27501765A4A300BE8433 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				865A27511765A4D800BE8433 /* MCDragAndDropView.h */,
+				865A27521765A4D800BE8433 /* MCDragAndDropView.m */,
+				865A27541765A57C00BE8433 /* MCDraggableView.h */,
+				865A27551765A57C00BE8433 /* MCDraggableView.m */,
+				865A27571765A59600BE8433 /* MCDropTargetView.h */,
+				865A27581765A59600BE8433 /* MCDropTargetView.m */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,6 +199,9 @@
 				865A273A1765A49D00BE8433 /* main.m in Sources */,
 				865A273E1765A49D00BE8433 /* AppDelegate.m in Sources */,
 				865A27471765A49D00BE8433 /* ViewController.m in Sources */,
+				865A27531765A4D800BE8433 /* MCDragAndDropView.m in Sources */,
+				865A27561765A57C00BE8433 /* MCDraggableView.m in Sources */,
+				865A27591765A59600BE8433 /* MCDropTargetView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
